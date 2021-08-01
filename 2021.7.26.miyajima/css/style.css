@@ -1,0 +1,461 @@
+.estra {
+  margin-top: 10px;
+}
+.news {
+  font-size: 20px;
+  color: grey;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 1400px;
+}
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hana {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top:20px;
+  width: 1400px;
+}
+.commit , 
+.for {
+  font-family: 'Rock Salt', cursive;
+  color: rgb(150, 9, 37);
+}
+.commit::after {
+  content: "grouth";
+  color: lightskyblue;
+}
+.moji {
+  position:absolute;
+  top:200px;
+  left: 300px;
+  font-size: 35px;
+}
+.hito {
+  color: rgb(150, 9, 37);
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: inline-block;
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  left: 120px;
+  
+}
+.zenbu {
+  color: lightskyblue;
+}
+.company {
+  color: grey;
+  font-size: 25px;
+  position: absolute;
+  top:30px;
+  left: 120px;
+  width: 500px;
+  height: 100px;
+}
+.subete {
+  position: relative;
+  bottom: 80px;
+  left: 180px;
+  width: 300px;
+}
+.new {
+  background-color: rgb(138, 11, 53);
+  padding: 3px 10px 3px 10px;
+  color:white;
+  border-radius: 20px;
+
+}
+h1 {
+  font-family: 'Dancing Script', cursive;
+font-family: 'Rock Salt', cursive;
+color: rgb(150, 9, 37);
+font-size: 25px;
+margin-bottom: 20px;
+}
+.pp {
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: solid  1px grey;
+  font-size: 25px;
+ 
+}
+.dd {
+  color: grey;
+  width: 700px;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 30px;
+  padding-bottom: 20px;
+  border-bottom: solid 2px grey;
+  position: relative;
+  top:300px;
+  left: 150px;
+}
+.cc {
+  line-height: 60px;
+}
+
+.sen {
+  border-top:solid 0.5px rgb(236, 231, 231);
+}
+.ppp{
+  border-top: solid 0.5px rgb(236, 231, 231);
+  border-bottom: double 0.5px rgb(236, 231, 231);
+}
+.about2 {
+  background-color: rgb(245, 239, 239);
+  position: relative;
+  top:400px;
+  right: 180px;
+  height: 500px;
+  width: 1400px;
+
+}
+h2 {
+  font-family: 'Dancing Script', cursive;
+font-family: 'Rock Salt', cursive;
+color: rgb(150, 9, 37);
+font-size: 25px;
+position: relative ;
+top: 20px;
+margin-bottom:20px ;
+
+}
+.abb {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Rock Salt', cursive;
+color: rgb(150, 9, 37);
+font-size: 25px;
+position: relative ;
+top: 20px;
+margin-bottom:20px ;
+}
+.technology {
+  color: grey;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin: 40px;
+}
+.love {
+  position: absolute;
+  right: 200px;
+}
+.dejitaru {
+  font-size: 20px;
+  color: grey;
+  width: 400px;
+  font-weight: normal;
+  line-height: 30px;
+  position:absolute;
+  top:150px;
+  left: 100px;
+}
+.pink {
+  display: grid;
+  position: relative;
+  top:600px;
+}
+.pink {
+  width: 1000px;
+  display: grid;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 1fr 1fr;
+}
+.pink1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background: rgb(116, 7, 74);
+}
+.service {
+  position: absolute;
+  top:1500px;
+  margin: 20px;
+  line-height: 30px;
+}
+.naiyou {
+  font-size: 20px;
+  color: grey;
+}
+.pink2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: lightpink;
+}
+.pink3 {
+  background: rgb(252, 155, 155);
+}
+.kaigi {
+  position: absolute;
+  top: 20px;
+  left: 140px;
+}
+.siro {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top:250px;
+  left: 180px;
+
+}
+.siro2 {
+  color: white;
+  line-height: 30px;
+  position: absolute;
+  top:300px;
+  width: 300px;
+  left: 100px;
+}
+.siro3 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+  left: 700px;
+}
+.siro4 {
+  color: white;
+  line-height: 20px;
+  width: 250px;
+  position: absolute;
+  top:70px;
+  left: 700px;
+}
+.siro5 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+.siro6 {
+  color: white;
+  line-height: 20px;
+  width: 250px;
+  position: absolute;
+  top:350px;
+  left: 700px;
+}
+.blog0 {
+  position: absolute;
+  left: 100px;
+}
+.blog1 {
+  background-color: rgb(245, 239, 239);
+  position: relative;
+  top:700px;
+  right: 180px;
+  height: 700px;
+  width: 1400px;
+}
+.blog2 {
+  font-size: 20px;
+  color: grey;
+  margin-top: 30px;
+}
+.blog3 {
+  background:white;
+  height: 350px;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 50px;
+}
+.blog4 {
+  background-color: rgb(138, 11, 53);
+  color: white;
+  width: 50px;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  border-top-left-radius: 30px;
+}
+.blog5 {
+  color: grey;
+  position: absolute;
+  top: 270px;
+  left: 60px;
+}
+.blog6 {
+  color: rgb(172, 170, 170);
+  position: absolute;
+  bottom: 70px;
+  left: 70px;
+}
+.blog7 {
+  color: rgb(172, 170, 170);
+  position: absolute;
+  bottom: 70px;
+  left: 190px;
+}
+.pic {
+  border-radius: 30px;
+}
+.card {
+display: flex;
+justify-content: space-around;
+position: absolute;
+top:50px;
+margin: 50px;
+}
+.blog10,
+.blog13 {
+  color: grey;
+  position: absolute;
+  top:270px;
+}
+.blog10 {
+  left: 480px;
+}
+.blog13 {
+  left: 880px;
+}
+.blog11 {
+  position: absolute;
+  bottom: 70px;
+  color:rgb(172, 170, 170);
+  left: 480px;
+}
+.blog12 {
+  position: absolute;
+  bottom: 70px;
+  color:rgb(172, 170, 170);
+  left: 600px;
+}
+.blog14 {
+  position: absolute;
+  bottom: 70px;
+  color:rgb(172, 170, 170);
+  left: 880px;
+}
+.blog15 {
+  position: absolute;
+  bottom: 70px;
+  color:rgb(172, 170, 170);
+  left: 1000px;
+}
+.btn {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  font-size: 20px;
+  background: white;
+  padding: 20px;
+  border: solid 1px rgb(255, 0, 98);
+  border-radius: 50px;
+  color: rgb(255, 0, 98);
+}
+.com00 {
+  position: relative;
+  top: 800px;
+  left: 300px;
+  width: 200px;
+}
+.kaisya {
+  font-size: 30px;
+  color: grey;
+  font-weight: bold;
+  margin: 25px;
+  line-height: 40px;
+  width: 150px;
+}
+.com0 {
+  margin-top: 35px;
+  width: 100px;
+}
+table {
+  font-size: 35px;
+  color: grey;
+  line-height: 50px;
+  border: solid 1px rgb(99, 97, 97);
+  width: 1000px;
+  position: absolute;
+  left: 20px;
+  text-align: justify;
+}
+th {
+  padding: 15px;
+  border: solid 1px rgb(99, 97, 97);
+  background: rgb(238, 235, 235);
+}
+td {
+  padding: 15px;
+  border: solid 1px rgb(99, 97, 97);
+}
+.hon {
+ display: flex;
+ position: relative;
+ top: 1500px;
+ justify-content: center;
+}
+.saiyou {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  top: 1350px;
+  left: 280px;
+  width: 200px;
+}
+.saiyou1 {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  top: 1310px;
+  left: 900px;
+  width: 350px;
+}
+.otoiawase {
+  position: absolute;
+  top: 2000px;
+  left: 40%;
+  color: grey;
+}
+.sen2 {
+  border-left:solid 1px rgb(255, 0, 119) ;
+  height: 50px;
+  position: absolute;
+  top: 2040px;
+  left: 50%;
+}
+.icon {
+  position: absolute;
+  top: 2100px;
+  left: 550px;
+  font-size: 20px;
+  background: linear-gradient(90deg,#FF69B4,#FF1493,#C71585);
+  padding: 30px;
+  border-radius: 50px;
+  color: white;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0px 7px 0px  #C71585;
+}
+.icon::after {
+  content: "お問合せ";
+  display: inline-block;
+}
+.icon2 {
+  position: relative;
+  top: 8px;
+}
+.footer {
+  color: grey;
+  background: rgb(218, 215, 215);
+  position: relative;
+  top: 1800px;
+  height: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
