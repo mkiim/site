@@ -137,19 +137,26 @@ font-family: 'Rock Salt', cursive;
 color: rgb(150, 9, 37);
 font-size: 25px;
 position: relative ;
-top: 20px;
-margin-bottom:20px ;
+top: 5px;
+left: 740px;
+display: inline-block;
 }
 .technology {
   color: grey;
   font-weight: bold;
   text-align: center;
   font-size: 25px;
-  margin: 40px;
+  padding: 20px;
+  width: 1000px;
+  display: inline-block;
+  position: relative;
+  left: 150px;
+  top:40px;
 }
 .love {
   position: absolute;
   right: 200px;
+  top: 130px;
 }
 .dejitaru {
   font-size: 20px;
@@ -362,6 +369,7 @@ margin: 50px;
   top: 800px;
   left: 300px;
   width: 200px;
+  display: inline-block;
 }
 .kaisya {
   font-size: 30px;
@@ -399,6 +407,7 @@ td {
  position: relative;
  top: 1500px;
  justify-content: center;
+ width: 1400px;
 }
 .saiyou {
   color: white;
@@ -407,14 +416,18 @@ td {
   top: 1350px;
   left: 280px;
   width: 200px;
+  display: inline-block;
+  margin: 0px;
 }
 .saiyou1 {
   color: white;
   font-size: 40px;
   position: relative;
-  top: 1310px;
-  left: 900px;
+  top: 1340px;
+  left: 700px;
   width: 350px;
+  margin: 0px;
+  display: inline-block;
 }
 .otoiawase {
   position: absolute;
@@ -459,3 +472,4 @@ td {
   padding-top: 30px;
   text-align: center;
 }
+
