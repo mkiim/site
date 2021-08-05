@@ -1,24 +1,24 @@
 .estra {
-  margin-top: 10px;
+  margin: 20px;
 }
 .news {
   font-size: 20px;
   color: grey;
+}
+ul {
+  list-style: none;
   display: flex;
   justify-content: flex-end;
-  list-style: none;
-  width: 1400px;
 }
 li {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .hana {
   display: flex;
   justify-content: flex-end;
+  margin-top: 20px;
   position: relative;
-  top:20px;
-  width: 1400px;
 }
 .commit , 
 .for {
@@ -30,21 +30,17 @@ li {
   color: lightskyblue;
 }
 .moji {
-  position:absolute;
-  top:200px;
-  left: 300px;
   font-size: 35px;
+  display: inline;
 }
 .hito {
   color: rgb(150, 9, 37);
   font-size: 30px;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-weight: bold;
   display: inline-block;
   width: 500px;
-  height: 100px;
-  position: absolute;
-  left: 120px;
   
 }
 .zenbu {
@@ -53,32 +49,24 @@ li {
 .company {
   color: grey;
   font-size: 25px;
-  position: absolute;
-  top:30px;
-  left: 120px;
-  width: 500px;
-  height: 100px;
 }
-.subete {
-  position: relative;
-  bottom: 80px;
-  left: 180px;
-  width: 300px;
-  height: 300px;
+.maru {
+  position: absolute;
+  top: 300px;
+  left: 350px;
 }
 .new {
   background-color: rgb(138, 11, 53);
   padding: 3px 10px 3px 10px;
   color:white;
   border-radius: 20px;
-
 }
 h1 {
   font-family: 'Dancing Script', cursive;
 font-family: 'Rock Salt', cursive;
 color: rgb(150, 9, 37);
 font-size: 25px;
-margin-bottom: 20px;
+margin:20px 0 20px 0;
 }
 .pp {
   color: grey;
@@ -94,12 +82,8 @@ margin-bottom: 20px;
   width: 700px;
   line-height: 40px;
   font-size: 20px;
-  margin: 30px;
-  padding-bottom: 20px;
   border-bottom: solid 2px grey;
-  position: relative;
-  top:300px;
-  left: 150px;
+  margin: auto;
 }
 .cc {
   line-height: 60px;
@@ -114,11 +98,7 @@ margin-bottom: 20px;
 }
 .about2 {
   background-color: rgb(245, 239, 239);
-  position: relative;
-  top:400px;
-  right: 180px;
-  height: 500px;
-  width: 1400px;
+  margin: 30px 0 30px 0;
 
 }
 h2 {
@@ -126,8 +106,7 @@ h2 {
 font-family: 'Rock Salt', cursive;
 color: rgb(150, 9, 37);
 font-size: 25px;
-position: relative ;
-top: 20px;
+
 margin-bottom:20px ;
 
 }
@@ -137,9 +116,10 @@ margin-bottom:20px ;
 font-family: 'Rock Salt', cursive;
 color: rgb(150, 9, 37);
 font-size: 25px;
-position: relative ;
-top: 5px;
-left: 740px;
+margin: 20px;
+display: inline;
+text-align: center;
+
 display: inline-block;
 }
 .technology {
@@ -148,34 +128,32 @@ display: inline-block;
   text-align: center;
   font-size: 25px;
   padding: 20px;
-  width: 1000px;
   display: inline-block;
-  position: relative;
-  left: 150px;
-  top:40px;
+}
+.about0 {
+  display: flex;
+  flex-direction: column;
 }
 .love {
-  position: absolute;
-  right: 200px;
-  top: 130px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
 }
 .dejitaru {
   font-size: 20px;
   color: grey;
-  width: 400px;
+  width: 480px;
   font-weight: normal;
   line-height: 30px;
-  position:absolute;
-  top:150px;
-  left: 100px;
 }
-.pink {
-  display: grid;
-  position: relative;
-  top:600px;
+.love2 {
+  display: flex;
+  justify-content: center;
 }
+
 .pink {
-  width: 1000px;
+  width: 800px;
+  margin: auto;
   display: grid;
   grid-template-rows: 250px 250px;
   grid-template-columns: 1fr 1fr;
@@ -186,127 +164,124 @@ display: inline-block;
   background: rgb(116, 7, 74);
 }
 .service {
-  position: absolute;
-  top:1500px;
-  margin: 20px;
   line-height: 30px;
+  width: 800px;
+  margin: auto;
 }
 .naiyou {
   font-size: 20px;
   color: grey;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 .pink2 {
   grid-column: 2/3;
   grid-row: 1/2;
   background: lightpink;
+  position: relative;
 }
 .pink3 {
   background: rgb(252, 155, 155);
+  position: relative;
 }
 .kaigi {
-  position: absolute;
-  top: 20px;
-  left: 140px;
+  text-align: center;
 }
 .siro {
   font-size: 25px;
   color: white;
   font-weight: bold;
-  position: absolute;
-  top:250px;
-  left: 180px;
-
+  text-align: center;
+  margin: 5px 0 5px 0;
 }
 .siro2 {
   color: white;
   line-height: 30px;
-  position: absolute;
-  top:300px;
+  text-align: center;
   width: 300px;
-  left: 100px;
+  margin: auto;
 }
 .siro3 {
   color: white;
   font-size: 25px;
   font-weight: bold;
-  position: absolute;
-  top: 30px;
-  left: 700px;
 }
 .siro4 {
   color: white;
   line-height: 20px;
-  width: 250px;
+  width: 200px;
+}
+.kuro {
+  width: 200px;
   position: absolute;
-  top:70px;
-  left: 700px;
+  top: 10px;
+  left: 200px;
 }
 .siro5 {
   color: white;
   font-size: 25px;
   font-weight: bold;
-  position: absolute;
-  top: 300px;
-  left: 700px;
 }
 .siro6 {
   color: white;
   line-height: 20px;
-  width: 250px;
+  width: 200px;
+}
+.kuro2 {
+  width: 200px;
   position: absolute;
-  top:350px;
-  left: 700px;
+  top: 10px;
+  left: 200px;
 }
 .blog0 {
-  position: absolute;
-  left: 100px;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  
 }
 .blog1 {
+  margin: 30px 0 30px 0;
   background-color: rgb(245, 239, 239);
-  position: relative;
-  top:700px;
-  right: 180px;
-  height: 700px;
-  width: 1400px;
+  height: 600px;
 }
 .blog2 {
   font-size: 20px;
   color: grey;
   margin-top: 30px;
+  font-weight: bold;
 }
 .blog3 {
   background:white;
   height: 350px;
   border-radius: 30px;
   overflow: hidden;
-  margin: 50px;
+  margin: 30px;
+  position: relative;
 }
 .blog4 {
   background-color: rgb(138, 11, 53);
   color: white;
   width: 50px;
   padding: 10px;
-  position: absolute;
-  top: 50px;
   border-top-left-radius: 30px;
+  position: absolute;
+  top:0px; 
 }
 .blog5 {
   color: grey;
-  position: absolute;
-  top: 270px;
-  left: 60px;
+  text-align: center;
+  margin: 20px 0 20px 0;
 }
 .blog6 {
   color: rgb(172, 170, 170);
-  position: absolute;
-  bottom: 70px;
-  left: 70px;
 }
 .blog7 {
   color: rgb(172, 170, 170);
-  position: absolute;
-  bottom: 70px;
-  left: 190px;
+}
+.blog67 {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
 }
 .pic {
   border-radius: 30px;
@@ -314,85 +289,69 @@ display: inline-block;
 .card {
 display: flex;
 justify-content: space-around;
-position: absolute;
-top:50px;
-margin: 50px;
 }
 .blog10,
 .blog13 {
   color: grey;
-  position: absolute;
-  top:270px;
-}
-.blog10 {
-  left: 480px;
-}
-.blog13 {
-  left: 880px;
+  text-align: center;
+  margin: 20px 0 20px 0;
 }
 .blog11 {
-  position: absolute;
-  bottom: 70px;
+  
   color:rgb(172, 170, 170);
   left: 480px;
 }
 .blog12 {
-  position: absolute;
-  bottom: 70px;
+ 
   color:rgb(172, 170, 170);
   left: 600px;
 }
 .blog14 {
-  position: absolute;
-  bottom: 70px;
+ 
   color:rgb(172, 170, 170);
   left: 880px;
 }
 .blog15 {
-  position: absolute;
-  bottom: 70px;
+  
   color:rgb(172, 170, 170);
   left: 1000px;
 }
+.blog6,
+.blog11,
+.blog14 {
+  margin-right: 5px;
+}
 .btn {
-  position: absolute;
-  top: 500px;
-  left: 500px;
   font-size: 20px;
   background: white;
   padding: 20px;
   border: solid 1px rgb(255, 0, 98);
   border-radius: 50px;
   color: rgb(255, 0, 98);
-}
-.com00 {
-  position: relative;
-  top: 800px;
-  left: 300px;
-  width: 200px;
-  display: inline-block;
+  width: 150px;
+  margin: auto;
 }
 .kaisya {
   font-size: 30px;
   color: grey;
   font-weight: bold;
-  margin: 25px;
+  margin: 20px 0 20px 160px;
   line-height: 40px;
   width: 150px;
 }
 .com0 {
-  margin-top: 35px;
   width: 100px;
+  height: 50px;
+  margin-left: 160px;
 }
 table {
   font-size: 35px;
   color: grey;
   line-height: 50px;
   border: solid 1px rgb(99, 97, 97);
-  width: 1000px;
-  position: absolute;
-  left: 20px;
   text-align: justify;
+  width: 700px;
+  margin: auto;
 }
 th {
   padding: 15px;
@@ -404,73 +363,74 @@ td {
   border: solid 1px rgb(99, 97, 97);
 }
 .hon {
- display: flex;
- position: relative;
- top: 1500px;
- justify-content: center;
- width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 50px;
+}
+.hon2,
+.hon3 {
+  width: 50%;
+}
+.hon2 {
+  position: relative;
 }
 .saiyou {
   color: white;
   font-size: 40px;
-  position: relative;
-  top: 1350px;
-  left: 280px;
-  width: 200px;
   display: inline-block;
-  margin: 0px;
+  width: 300px;
+  position: absolute;
+  top:50%;
+  left: 40%;  
 }
 .saiyou1 {
   color: white;
   font-size: 40px;
-  position: relative;
-  top: 1340px;
-  left: 700px;
-  width: 350px;
   margin: 0px;
   display: inline-block;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
 }
 .otoiawase {
-  position: absolute;
-  top: 2000px;
-  left: 40%;
   color: grey;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 .sen2 {
   border-left:solid 1px rgb(255, 0, 119) ;
   height: 50px;
-  position: absolute;
-  top: 2040px;
-  left: 50%;
+  width: 1px;
+  display: block;
+  margin: auto;
+}
+.sen3 {
+  margin: 20px 0 20px 0;
 }
 .icon {
-  position: absolute;
-  top: 2100px;
-  left: 550px;
   font-size: 20px;
   background: linear-gradient(90deg,#FF69B4,#FF1493,#C71585);
-  padding: 30px;
+  padding: 20px;
   border-radius: 50px;
   color: white;
   width: 250px;
   text-align: center;
   box-shadow: 0px 7px 0px  #C71585;
+  margin: auto;
 }
 .icon::after {
   content: "お問合せ";
   display: inline-block;
 }
-.icon2 {
-  position: relative;
-  top: 8px;
-}
+
 .footer {
   color: grey;
   background: rgb(218, 215, 215);
-  position: relative;
-  top: 1800px;
-  height: 50px;
-  padding-top: 30px;
+  padding: 30px 0 30px 0;
   text-align: center;
+  margin-top: 30px;
 }
-
